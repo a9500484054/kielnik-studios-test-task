@@ -1,0 +1,198 @@
+[
+	{
+		"url": "images/svg/room.svg",
+		"room": "1-комнатная №104",
+		"area": 13.1,
+		"floor": 1,
+		"price": "3\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "2-комнатная №105",
+		"area": 23.1,
+		"floor": 2,
+		"price": "5\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "4-комнатная №106",
+		"area": 33.1,
+		"floor": 3,
+		"price": "3\n530\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "2-комнатная №107",
+		"area": 34.1,
+		"floor": 4,
+		"price": "4\n620\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №108",
+		"area": 54.1,
+		"floor": 5,
+		"price": "7\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №108",
+		"area": 22.1,
+		"floor": 6,
+		"price": "3\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №110",
+		"area": 25.1,
+		"floor": 7,
+		"price": "6\n678\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №111",
+		"area": 23.1,
+		"floor": 8,
+		"price": "6\n652\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 51.1,
+		"floor": 9,
+		"price": "4\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 61.1,
+		"floor": 1,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "2-комнатная №104",
+		"area": 64.1,
+		"floor": 9,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "1-комнатная №104",
+		"area": 23.1,
+		"floor": 4,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 65.1,
+		"floor": 6,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "6-комнатная №104",
+		"area": 71.1,
+		"floor": 9,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 33.1,
+		"floor": 1,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 64.1,
+		"floor": 1,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 34.1,
+		"floor": 7,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 23.1,
+		"floor": 8,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 23.1,
+		"floor": 9,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 64.1,
+		"floor": 1,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 11.1,
+		"floor": 1,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 26.1,
+		"floor": 2,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 13.1,
+		"floor": 3,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 53.1,
+		"floor": 4,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 53.1,
+		"floor": 5,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 34.1,
+		"floor": 6,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 53.1,
+		"floor": 7,
+		"price": "6\n630\n500"
+	},
+	{
+		"url": "images/svg/room.svg",
+		"room": "3-комнатная №104",
+		"area": 65.1,
+		"floor": 8,
+		"price": "6\n630\n500"
+	}
+]

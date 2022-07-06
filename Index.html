@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" href="css/um-icon-style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main class="container">
+        <section class="content">
+
+            <h2 class="content__title">Квартиры</h2>
+            
+            <button class="content__btn-filter">
+                <span class="visually-hidden">фильтр</span>
+                <i class="icon-books"></i>
+            </button>
+
+            <div class="content__wrap">
+
+                <ul class="content__title-list title-list"> 
+                    <li class="title-list__item">Планировка</li>
+                    <li class="title-list__item">Квартира</li>
+                    <li class="title-list__item">
+                        <span class="title-list__text">S, м<sup><small>2</small></sup></span>     
+                        <span class="arrow-wrap title-list__arrow-wrap">
+                            <button class="arrow-wrap__btn"><i class="arrow-wrap__icon icon-arrow m-js-up"></i></button>
+                            <button class="arrow-wrap__btn"><i class="arrow-wrap__icon icon-arrow m-js-down"></i></button>
+                        </span>
+                    </li>
+                    <li class="title-list__item">
+                        <span class="title-list__text">Этаж</span>     
+                        <span class="arrow-wrap title-list__arrow-wrap">
+                            <button class="arrow-wrap__btn"><i class="arrow-wrap__icon icon-arrow floor-js-up"></i></button>
+                            <button class="arrow-wrap__btn"><i class="arrow-wrap__icon icon-arrow floor-js-down"></i></button>
+                        </span>
+                    </li>
+                    <li class="title-list__item">
+                        <span class="title-list__text">Цена, &#8381;</span>     
+                        <span class="arrow-wrap title-list__arrow-wrap">
+                            <button class="arrow-wrap__btn"><i class="arrow-wrap__icon icon-arrow price-js-up"></i></button>
+                            <button class="arrow-wrap__btn"><i class="arrow-wrap__icon icon-arrow price-js-down"></i></button>
+                        </span>
+                    </li>
+                </ul>
+
+                <ul class="carts content__carts"></ul>
+                <button class="content__btn">загрузить еще</button>
+            </div>
+        </section>
+
+        <section class="filter">
+            <h2 class="visually-hidden">Фильтр</h2>
+            <form action="#">
+                <ul class="filter__checkbox checkbox">
+                    <li class="checkbox__item">
+                        <label class="checkbox__label">
+                            <input class="checkbox__input" type="checkbox">
+                            <span class="checkbox__elem">1k</span>
+                        </label>
+                    </li>
+                    <li class="checkbox__item">
+                        <label class="checkbox__label">
+                            <input class="checkbox__input" type="checkbox">
+                            <span class="checkbox__elem">2k</span>
+                        </label>
+                    </li>
+                    <li class="checkbox__item">
+                        <label class="checkbox__label">
+                            <input class="checkbox__input" type="checkbox">
+                            <span class="checkbox__elem">3k</span>
+                        </label>
+                    </li>
+                    <li class="checkbox__item">
+                        <label class="checkbox__label">
+                            <input class="checkbox__input" type="checkbox" disabled>
+                            <span class="checkbox__elem checkbox__elem--disabled">4k</span>
+                        </label>
+                    </li>
+                </ul>
+
+                <div class="filter__range range">
+                    <span class="range__title">Стомость квартиры, &#8381;</span>
+                    <span class="range__wrap">
+                        <span class="range__text">от <input type="text" class="range__input range__from" placeholder="5 500 000"></span>
+                        <span class="range__text">до <input type="text" class="range__input range__to" placeholder="8 000 000"></span>
+                    </span>
+                    <input class="range__input js-range-slider" type="text">
+                </div>
+
+                <div class="filter__range range">
+                    <span class="range__title">Площадь, м<sup><small>2</small></sup></span>
+                    <span class="range__wrap">
+                        <span class="range__text">от <input type="text" class="range__input range__m-from" placeholder="27"></span>
+                        <span class="range__text">до <input type="text" class="range__input range__m-to" placeholder="194"></span>
+                    </span>
+                    <input class="range__input js-range-slider-m" type="range">
+                </div>
+
+                <button class="filter__btn" type="reset">Сбросить параметры <i class="icon-close"></i> </button>
+
+            </form>
+        </section>
+        
+        <button class="btn-above">
+            <span class="visually-hidden">фильтр</span>
+            <i class="icon-string"></i>
+        </button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="js/app.js"></script> 
+</body>
+</html>
